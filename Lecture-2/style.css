@@ -1,0 +1,36 @@
+h1{
+  background-color: yellow;
+  font-size: 29px;
+  font-family: sans-serif;
+  font-weight: bold;
+  /*font-style: normal; */
+
+  text-align: left;
+  text-decoration: underline dotted  rgb(219, 4, 4);
+  text-transform: lowercase;
+
+  text-shadow: 4px 4px 3px purple;
+}
+
+.name:hover{
+  background-color: red;
+  text-shadow: none;
+  text-transform: uppercase;
+  text-decoration: underline white;
+
+}
+
+.dummyText{
+  background-color: #a9e4ab;
+  color: red;
+  text-transform: capitalize;
+}
+
+.wrapper{
+  background-color: orange;
+  border: 1px solid black;
+  /*border-radius: 20px; */
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-color: dotted;
+}

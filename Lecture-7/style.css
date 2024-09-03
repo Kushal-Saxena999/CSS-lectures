@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  overflow-y: scroll;
+  margin: auto;
+  border: 5px solid red;
+  width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+/*  float: right; 
+  justify-content: space-between; 
+  flex-direction: column-reverse; */
+  align-items:center;
+  align-content: space-evenly;
+  gap: 10px; 
+}
+
+.box{
+  background-color: violet;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px; 
+}
+
+.box1{
+  flex-shrink: 1;
+}
+
+.box2{
+  flex-grow: 2;
+  align-self: flex-end;
+}

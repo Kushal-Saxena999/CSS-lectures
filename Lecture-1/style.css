@@ -1,0 +1,51 @@
+/* External 
+   css*/
+
+/*Tag Selector
+  */   
+h1{
+  color: yellowgreen;
+}
+/*Class Selector
+  */
+  
+.wrapper{
+  background-color: antiquewhite;
+}
+  
+
+.container{
+  background-color: blue;
+}
+/*
+  Id Selector
+  */
+#kamal{
+  background-color: green;
+}
+
+p{
+  color: white;
+  background-color: black;
+}
+
+/* Pseudo Selector or Pseudo class */
+/*
+ul  li:nth-child(4){
+  background-color:#fff;
+  color: red;
+}
+  */
+/*
+ul li:nth-last-child(5){
+  background-color:blue;
+}
+  */
+ul li:nth-of-type(n){
+  background-color: purple;
+}
+
+ul:hover{
+  background-color: red;
+  color: green;
+}

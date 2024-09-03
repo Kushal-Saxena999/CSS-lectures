@@ -1,0 +1,30 @@
+
+h1{
+  color: red;
+}
+
+#container{
+  border: 1px solid black;
+  width: 700px;
+  height: 700px;
+  background-image: url(https://cdn.fstoppers.com/styles/full/s3/media/2019/12/04/nando-jpeg-quality-006-too-much.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; 
+
+}
+p{
+
+ /* color: #ff0000; hex code wala way */
+ /* color: rgba(176,23,23,0.682);*/
+/*hsl */
+ /* color: hsl(149, 100%, 50%); */
+ /* color: hsla(62, 93%, 48%, 0.897); */
+  
+}
+
+body{
+  background: conic-gradient(red, yellow,green);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}

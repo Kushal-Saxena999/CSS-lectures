@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  width: 500px;
+  height: 200px;
+  background-color: lightgreen;
+/*  animation: name duration timing-function delay iteration-count direction fill-mode; */
+/*  animation-name: kushal;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; 
+  animation-fill-mode: both; */
+  animation: kushal 0.5s linear 1s infinite reverse both;
+}
+
+@keyframes kushal {
+  /*
+  from{
+    background-color: yellow;
+    width: 500px;
+    height: 200px;
+
+  }
+  to {
+    margin-top: 300px;
+    transform: translateX(200px);
+    background-color: gray;
+    width: 1000px;
+    height: 400px;
+    
+  }
+}
+  */
+
+  /*
+0%{
+  background-color: yellow;
+  width: 500px;
+  height: 200px;
+/*  transform: skewX(-20deg); 
+}
+*/
+ /*
+25%{
+  background-color: red; 
+  transform: rotate(30deg);
+}
+ 
+ 
+50% {
+  transform: skewX(20deg);
+}
+
+100%{
+  transform: translateX(200px);
+  background-color: gray;
+  width: 1000px;
+  height: 400px;
+  transform: skewX(-20deg); */
+}
+ */ 
+ 
+/*
+h1:hover{
+  width: 1000px;
+  height: 400px;
+  transition: 5s cubic-bezier(0, 1.22, 1,-0.35);
+} */
